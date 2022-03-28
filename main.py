@@ -78,8 +78,6 @@ while True:
                 2,
             )
             attendance(name)
-        else:
-            attendance("Intruder")
 
     cv2.imshow("Camera", frame)
     if cv2.waitKey(10) == 13:
