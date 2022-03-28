@@ -4,7 +4,7 @@ import numpy as np
 import face_recognition
 from datetime import datetime
 
-path = "../images"
+path = "./images"
 images = []
 personName = []
 myList = os.listdir(path)
